@@ -20,6 +20,7 @@ despues se le solicita el numero entero y si es negativo o fraccionado se sale
 en el else se utiliza la funcion lambda que usa 'x' y 'y' para guardar los numeros del rango del factorial
 despues el reduce simplifica todos los numeros de lambda y del range a uno solo, guardandolo en la variable factorial
 para ya por ultimo imprimirlo
+Este ejemplo funciona con cualquier numero entero que desee.
 '''
 
 from functools import reduce
@@ -57,6 +58,7 @@ En este caso esta la lista y se imprime
 se utiliza la funcion lambda para que en la variable x utilice los elementos de lista
 la funcion map itera la funcion lambda para que aplique la funcion al cubo en cada elemento de lista
 y esta sea guardada en lista que a su vez es guardada en la variable lista_alcubo, que finalmente es impresa
+Este ejemplo fue probado con la lista que muestra y agregandole cualquier otro numero
 '''
 
 
@@ -90,6 +92,7 @@ print("La lista al cubo es:", lista_alcubo)
 ''' Aca abajo esta el ejemplo utilizando filter, en el cual esta la lista y esta la variable elemento a remover,
 lambda con variable x busca los elementos en lista diferentes a la variable que esta en elementos a remover y los itera
 con la funcion filtro y al haber variables(true) los guarda en list y a su vez en la variable lista y los imprime
+en este ejemplo esta seleccionado perro, sin embargo, se probo tambien con conejo
 '''
 
 lista = ['gato', 'perro', 'cangrejo', 'perro', 'conejo']
@@ -125,7 +128,7 @@ llegando al numero final ingresado por el usuario
 
 ''' Este es otro ejemplo utilizando map, es el mismo codigo, solo la linea 18 se crea para guardar los numeros
 dandoles un espacio y uniendolos con el join y convirtiendo los datos que estan en el row a string mediante el map
-antes de concatenarlos (uni mas de 1 str o lista)
+antes de concatenarlos (uni mas de 1 str o lista), el ejemplo funciona con cualquier numero mayor a 0
 '''
 
 numero = int(input("Por favor ingrese un número mayor a 0, gracias:"))
